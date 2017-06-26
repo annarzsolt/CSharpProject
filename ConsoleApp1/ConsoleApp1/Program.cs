@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            SetGetConstructor d = new SetGetConstructor() { Name = "Alma", Age = 45 };
+            Console.WriteLine(d.Name + " " + d.Age);
+            Console.ReadKey();
         }
     }
 }
