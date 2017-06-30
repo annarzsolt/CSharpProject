@@ -10,7 +10,11 @@ namespace ConsoleApp1
     {
         private string name = "";
         private int age = 0;
-        public Dog() { }
+        public SetGetConstructor() { }
+        ~SetGetConstructor()
+        {
+            Console.WriteLine("Destruktor");
+        }
 
         public string Name
         {
